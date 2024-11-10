@@ -1,0 +1,513 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.head {
+    background-color:rgb(235, 105, 105);
+    width: 100%;
+    padding: 20px 0;
+}
+
+#heading {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em; /* Default font size for desktop */
+}
+
+/* Navbar Styles */
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+#nav {
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#nav a {
+    color: rgb(87, 63, 32);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#nav a:hover {
+    background-color: rgb(87, 63, 32);
+    color: white;
+}
+
+/* Image Styles */
+#photo1 {
+    width: 100%;
+    height: 300px;
+    max-height: 400px;
+    border: 2px solid blueviolet;
+    margin-top: 2px;
+    object-fit: cover; /* Ensures the image fills the area without distortion */
+    transition: opacity 1s ease; /* Transition duration and easing function */
+    opacity: 1;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+
+#signup{
+
+    position: absolute;
+    background-color: rgb(223, 10, 10);
+    color: rgb(27, 230, 37);
+    margin-top: 10%;
+    justify-content: center;
+   margin-left: -50px;
+    box-shadow:  0 4px 8px rgba(7, 197, 70, 0.1);
+    height: 60px;
+    width: 112px;
+    border-radius: 5px;
+    font-size: larger;
+    
+   
+    
+
+    
+
+}
+
+#signup:hover{
+    color: rgb(20, 136, 49);
+   
+}
+
+
+
+
+
+/* PDF Box */
+#pdf {
+    height: 20px;
+    width: 305px;
+    border: 4px solid honeydew;
+    box-shadow: black 2px solid;
+}
+
+/* Book Info Box */
+#e1 {
+    width: 90%; /* Make the box width more flexible */
+    max-width: 600px; /* Set a maximum width */
+    margin: 20px auto; /* Center it */
+    padding: 10px;
+    border: solid 4px rgb(107, 4, 4);
+    text-align: center;
+    
+    background-image: url("https://images.pexels.com/photos/904620/pexels-photo-904620.jpeg?auto=compress&cs=tinysrgb&w=400");
+    color: rgb(23, 236, 236);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   justify-content: center;
+   text-overflow: clip ;
+   text-wrap: wrap;
+   word-wrap: break-word;
+   box-shadow:  0 4px 8px rgba(156, 247, 115, 0.1);
+   
+
+
+  
+}
+
+/* Button Styles */
+#btn1 {
+    padding: 10px 20px;
+    background-color: rgb(212, 21, 21);
+    border-radius: 10%;
+    color: rgb(208, 221, 223);
+    cursor: pointer;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#read1{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(187, 196, 199);
+}
+
+#btn1:hover {
+    color: burlywood;
+    background-color: rgb(43, 37, 37);
+}
+
+/* Photo2 Image */
+#photo2 {
+    position: relative;
+    z-index: -1;
+    border: 2px solid green indigo;
+    width: 100%;
+    height: 400px;
+}
+
+/* Box1 positioning */
+.box1 {
+    position: absolute;
+}
+
+.btn2{
+    background-color: black;
+    border-radius: 10%;
+    color: rgb(21, 192, 15);
+    cursor: pointer;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, ;
+    margin-top: 5%;
+    border: 1px 1px 2px solid blue ;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn2:hover{
+    color: rgb(20, 136, 49);
+   
+
+}
+
+.link{
+    text-decoration: none;
+    color: burlywood;
+}
+.link:hover{
+    color: bisque;
+    text-shadow: 0cap;
+
+}
+
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    max-height: auto;
+    text-wrap: wrap;
+    height: 30%;
+    max-height: 450px;
+    max-width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdaw36mrUka3Sid6ovxCDoLaiRYQgD4CqRHA&s");
+
+
+}
+
+#c1{
+
+    background-color: rgb(196, 196, 196);
+    
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px 1px 2px solid blue ;
+    margin-left: 4%;
+    height: 22vh;
+    width: 28%;
+    margin-top: 1%;
+    max-width: 40%;
+    justify-content: center;
+    max-height: 23vh;
+    background-color: rgba(105, 100, 100, 0.5);/*transparent look */
+
+}
+
+#c2{
+    background-color: rgb(196, 196, 196);
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.6);
+    border: 1px 1px 2px solid blue ;
+    margin-left: 4%;
+    height: 22vh;
+    width: 28%;
+    margin-top: 1%;
+    max-width: 40%;
+    justify-content: center;
+    max-height: 23vh;
+    background-color: rgba(105, 100, 100, 0.5);/*transparent look */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styling */
+@media screen and (max-width: 1024px) {
+    /* Tablet screens */
+    #heading {
+        font-size: 2.2em; /* Adjust heading size for tablets */
+    }
+
+    #nav {
+        gap: 10px;
+    }
+
+    #nav a {
+        padding: 8px 15px; /* Smaller padding for tablet devices */
+        font-size: 1em; /* Adjust font size */
+    }
+
+    #e1 {
+        width: 80%; /* Book info box width on tablet */
+        padding: 15px;
+    }
+
+    #photo1 {
+        width: 100%; /* Ensure photo1 width is responsive */
+        margin-top: 10px;
+    }
+
+    #photo2 {
+        width: 100%; /* Ensure photo2 width is responsive */
+    }
+}
+
+
+
+
+#section1 {
+    background-image: url('https://img.freepik.com/free-vector/watercolor-muted-colors-pattern-design_23-2150003053.jpg?ga=GA1.1.477320029.1724866833&semt=ais_hybrid'); /* Replace with your image path */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px; 
+    
+}
+
+
+
+
+
+/* Main container (box1) */
+.box1 {
+    display: flex;           /* Align children in a row */
+    gap: 10px;               /* Space between boxes */
+    flex-wrap: wrap;         /* Allow items to wrap onto new lines */
+    padding: 1%; 
+    justify-content: center;            /* Padding around the container */
+    height: auto;            /* Adjust height based on content */
+    max-height: 1400px;       /* Optional: limit height if needed */
+    width: 100%;             /* Take full width of the parent container */
+    background-image: url("https://images.pexels.com/photos/1227513/pexels-photo-1227513.jpeg?auto=compress&cs=tinysrgb&w=400");
+
+    margin: 2% auto;         /* Center the container with spacing */
+    box-sizing: border-box;
+    position: relative; /* Change to relative for normal flow */  /* Ensure padding doesn't affect box dimensions */
+    max-height: none; /* Remove any height restriction */
+}
+  
+  
+  /* Styles for each book box */
+  .book1 {
+    background-color: rgba(7, 7, 7, 0.5);/*transparent look */ /* Background for visibility */
+    display: flex;
+    flex-direction: column;              /* Flex container to center text */
+    justify-content: center;    /* Center text horizontally */
+    align-items: center;        /* Center text vertically */
+    color: white;               /* Text color */
+    padding: 10px;              /* Padding inside the box */
+    word-wrap: break-word;      /* Break long words to prevent overflow */
+    overflow-wrap: break-word;  /* Ensure long words break onto the next line */
+    width: 100%;                /* Make each box flexible to its parent container */
+    max-width: 150px;           /* Optional: maximum width for each box */
+    height: 100px;              /* Fixed height for each box */
+    text-align: center;         /* Center text inside the box */
+    margin: 5px;                /* Space between boxes */
+    box-sizing: border-box; 
+    height: 200px;
+    width: auto;
+    box-shadow: 5px 5px 10px rgb(189, 184, 194) ;
+    overflow-y: hidden;
+  }
+
+
+
+  .book2{
+    height:75%;
+    width: 60%;
+   
+  }
+
+
+#sea{
+    max-width: 1200px;
+    width: 100%;
+    height:70px;
+
+}
+
+
+
+
+
+
+
+
+
+  
+  /* Responsive adjustments for smaller screens */
+  @media screen and (max-width: 600px) {
+    .box1 {
+      gap: 5px;                 /* Reduce gap on small screens */
+      margin: 1% auto;           /* Adjust margin for smaller screens */
+    }
+
+
+
+    #signup{
+
+        margin-top: 20%;
+       
+    }
+    #footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-height: 400px;
+    }
+
+    #c1{
+        height: 18vh;
+        width: 40%;
+    }
+
+    #c2{
+        height: 18vh;
+        width: 40%;
+    }
+  
+    .book {
+      width: 45%;               /* Make boxes take 45% of the width on small screens */
+      height: 80px;             /* Adjust height for smaller boxes */
+    }
+  }
+  
+  /* Larger screens (above 600px) */
+  @media screen and (min-width: 601px) {
+    .book {
+      width: 30%;               /* Each box takes up 30% of the container's width */
+    }
+  }
+  
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+        .list {
+        flex-direction: column; /* Stack navbar items vertically */
+        gap: 10px;
+        justify-content: center;
+    }
+
+    #heading {
+        font-size: 1.8em; /* Smaller heading on mobile */
+    }
+
+    #nav a {
+        font-size: 1.2em;
+        padding: 12px 15px;
+    }
+
+    #nav {
+        margin-left: 20%;
+        gap: 5px;
+    }
+
+    #e1 {
+        width: 80%; /* Adjust width on smaller screens */
+        padding: 15px;
+    }
+
+    #photo1 {
+        width: 100%; /* Make photo1 width 100% for mobile screens */
+    }
+
+    .box1 {
+        background-color: burlywood;
+    }
+
+
+    .box1{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 2%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #book1{
+        padding-left: 25%;
+        text-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    /* Very small screens (e.g., smartphones) */
+    #heading {
+        font-size: 1.4em; /* Further reduce heading size */
+    }
+
+    #nav a {
+        padding: 8px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #e1 {
+        width: 95%; /* Make book info box more flexible on small screens */
+        padding: 10px;
+    }
+
+    #btn1 {
+        font-size: 1em; /* Adjust button size for mobile */
+        padding: 8px 15px;
+    }
+
+    #photo1 {
+        width: 100%; /* Make image full width */
+    }
+
+    #photo2 {
+        width: 100%; /* Make photo2 full width */
+    }
+}
+
+
+
+
